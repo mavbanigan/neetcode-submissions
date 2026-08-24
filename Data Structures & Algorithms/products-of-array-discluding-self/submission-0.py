@@ -1,6 +1,5 @@
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
-        # Brute force method. O(n^2) time complexity. Does not meet requirements.
         result = [1] * len(nums)
         mapN = {}
         for d, num in enumerate(nums):
